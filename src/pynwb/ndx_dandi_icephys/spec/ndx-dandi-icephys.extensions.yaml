@@ -17,8 +17,12 @@ groups:
     doc: tissue sample id
     quantity: '?'
   - name: targeted_layer
-    dtype: int
+    dtype: text
     doc: targeted layer
+    quantity: '?'
+  - name: inferred_layer
+    dtype: text
+    doc: inferred layer
     quantity: '?'
   - name: exon_reads
     dtype: int
@@ -95,6 +99,10 @@ groups:
   - name: exclusion_reason
     dtype: text
     doc: exclusion reason
+    quantity: '?'
+  - name: recording_temperature
+    dtype: text
+    doc: temperature of bath in Celsius
     quantity: '?'
 - neurodata_type_def: CreSubject
   neurodata_type_inc: Subject

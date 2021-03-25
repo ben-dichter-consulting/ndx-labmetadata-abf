@@ -35,7 +35,8 @@ def main():
     for args in (('cell_id', 'text'),
                  ('slice_id', 'text'),
                  ('tissue_sample_id', 'text'),
-                 ('targeted_layer', 'int'),
+                 ('targeted_layer', 'text'),
+                 ('inferred_layer', 'text'),
                  ('exon_reads', 'int'),
                  ('intron_reads', 'int'),
                  ('intergenic_reads', 'int'),
@@ -54,7 +55,8 @@ def main():
                  ('cortical_thickness_4x', 'float'),
                  ('cortical_thickness_um', 'float'),
                  ('traced', 'text'),
-                 ('exclusion_reason', 'text')):
+                 ('exclusion_reason', 'text'),
+                 ('recording_temperature', 'text', 'temperature of bath in Celsius')):
 
         if len(args) == 2:
             name, dtype = args

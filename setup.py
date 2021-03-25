@@ -9,7 +9,7 @@ with open(os.path.join(here, 'README.md')) as f:
 
 setup_args = {
     'name': 'ndx-dandi-icephys',
-    'version': '0.3.0',
+    'version': '0.4.0',
     'description': 'DandiIcephysMetadata extension.',
     'long_description': long_description,
     'long_description_content_type': 'text/markdown',
