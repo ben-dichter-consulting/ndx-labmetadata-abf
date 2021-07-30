@@ -1,4 +1,4 @@
-# ndx-dandi-icephys extension for NWB:N
+# ndx-dandi-icephys extension for NWB
 
 Extension of the [lab_meta_data](https://pynwb.readthedocs.io/en/stable/pynwb.file.html#pynwb.file.NWBFile.lab_meta_data) field.
 
