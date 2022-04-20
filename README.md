@@ -4,9 +4,6 @@ Extension of the [lab_meta_data](https://pynwb.readthedocs.io/en/stable/pynwb.fi
 
 [![PyPI version](https://badge.fury.io/py/ndx-dandi-icephys.svg)](https://badge.fury.io/py/ndx-dandi-icephys)
 
-[Python Installation](#python-installation)
-
-[Python Usage](#python-usage)
 
 ### Python Installation
 ```bash
